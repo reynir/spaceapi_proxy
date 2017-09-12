@@ -1,0 +1,5 @@
+(jbuild_version 1)
+
+(executable
+ ((name spaceapi_proxy)
+  (libraries (cohttp-lwt-unix yojson lwt_react))))
